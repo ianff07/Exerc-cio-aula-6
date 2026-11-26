@@ -1,0 +1,29 @@
+DESAFIO EXTRA
+ 
+LISTA SIMPLESMENTE ENCADEADA
+Cada no tem o dado e um ponteiro para o proximo. So da para andar para frente.
+Vantagens: usa pouca memoria (so um ponteiro por no), implementacao simples,
+insercao no inicio e rapida.
+Desvantagens: nao da para voltar, remover um no exige conhecer o anterior,
+inserir no final exige percorrer tudo.
+Onde usar: pilhas, filas simples, listas em que so se anda em um sentido.
+ 
+LISTA DUPLAMENTE ENCADEADA
+Cada no tem o dado, um ponteiro para o proximo e outro para o anterior.
+Vantagens: da para percorrer nos dois sentidos, remover um no e mais facil
+porque ja se tem o anterior.
+Desvantagens: gasta mais memoria (dois ponteiros), o codigo e mais trabalhoso
+porque tem que acertar os dois ponteiros a cada insercao ou remocao.
+Onde usar: historico de navegacao (voltar e avancar), editor de texto com
+desfazer e refazer, playlist de musicas.
+ 
+LISTA CIRCULAR
+O ultimo no aponta de volta para o primeiro, em vez de NULL (pode ser simples
+ou dupla).
+Vantagens: da para percorrer a lista toda a partir de qualquer no, boa para
+repeticao ciclica.
+Desvantagens: se nao tomar cuidado, o percurso vira laco infinito, pois nunca
+encontra NULL; o controle do fim da lista e mais delicado.
+Onde usar: escalonamento de processos (round-robin), jogos com turnos de
+jogadores, playlist em modo repetir.
+ 
