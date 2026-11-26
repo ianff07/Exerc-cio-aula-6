@@ -1,0 +1,14 @@
+EXERCICIO 1
+ 
+O campo "dado" guarda a informacao do no, que nesse caso e um numero inteiro.
+E o valor que a gente realmente quer armazenar na lista.
+ 
+O ponteiro "proximo" guarda o endereco do proximo no da lista. E ele que liga
+um no ao outro, formando a sequencia. No ultimo no ele aponta para NULL, o que
+indica o fim da lista.
+ 
+O ponteiro e do tipo "struct No *" porque ele precisa apontar para outro no
+da mesma estrutura. Dentro da definicao o nome "No" (do typedef) ainda nao
+existe, entao se usa "struct No". Alem disso, o tipo do ponteiro tem que ser
+igual ao tipo do que ele aponta, para o compilador saber como acessar os
+campos do proximo no.
